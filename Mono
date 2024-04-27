@@ -1,0 +1,44 @@
+!! Special
+*.foreground:  #464646
+*.background:  #FFFFFF
+*.cursorColor: #464646
+
+!! Black
+*.color0:  #080808
+*.color8:  #464646
+
+!! Red
+*.color1:  #683939
+*.color9:  #683939
+
+!! Yellow
+*.color2:  #686839
+*.color10: #686839
+
+!! Green
+*.color3:  #396839   
+*.color11: #396839  
+
+!! Blue
+*.color4:  #393968
+*.color12: #393968
+
+!! Magenta
+*.color5:  #683968
+*.color13: #683968
+
+!! Cyan
+*.color6:  #396868   
+*.color14: #396868  
+
+!! White
+*.color7:  #EEEEEE
+*.color15: #FFFFFF
+
+dwm.normfgcolor: #464646
+dwm.normbgcolor: #FFFFFF
+dwm.normbordercolor: #FFFFFF
+
+dwm.selfgcolor: #393968
+dwm.selbgcolor: #FFFFFF
+dwm.selbordercolor: #FFFFFF

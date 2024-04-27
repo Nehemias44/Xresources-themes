@@ -1,0 +1,77 @@
+! Typewriter Night
+! Scheme: Typewriter (https://github.com/logico-dev)
+
+#define black    #080808
+#define bblack   #464646
+
+#define red      #626262
+#define bred     #626262
+
+#define yellow   #B2B2B2
+#define byellow  #B2B2B2
+
+#define green    #868686
+#define bgreen   #009900
+
+#define blue    #00BAFF
+#define bblue   #767676
+
+#define magenta  #E41D91
+#define bmagenta #FF00AF
+
+#define cyan     #949494
+#define bcyan    #949494
+
+#define white    #eeeeee
+#define bwhite   #ffffff
+
+#define fg       #464646
+
+*.foreground:     fg
+#ifdef background_opacity
+*.background:     [background_opacity]white
+#else
+*.background:     white
+#endif
+*.cursorColor:    #528BFF
+*.underlineColor: yellow
+
+! Black
+*.color0:         black
+*.color8:         bblack
+
+! Red
+*.color1:         red
+*.color9:         bred
+
+! Yellow
+*.color3:         yellow
+*.color11:        byellow
+
+! Green
+*.color2:         green
+*.color10:        bgreen
+
+! Blue
+*.color4:         blue
+*.color12:        bblue
+
+! Magenta
+*.color5:         magenta
+*.color13:        bmagenta
+
+! Cyan
+*.color6:         cyan
+*.color14:        bcyan
+
+! White
+*.color7:         white
+*.color15:        bwhite
+
+dwm.normfgcolor: fg
+dwm.normbgcolor: white
+dwm.normbordercolor: white
+
+dwm.selfgcolor: bblack
+dwm.selbgcolor: white
+dwm.selbordercolor: white
